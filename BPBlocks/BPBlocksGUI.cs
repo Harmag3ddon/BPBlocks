@@ -82,6 +82,7 @@ namespace BPBlocks
                 writer.WriteLine("[Buttons]");
                 writer.WriteLine("Input=testas1");
                 writer.WriteLine("Output=testas2");
+                writer.WriteLine("[GUIStartPosition]");
             }
         }
 

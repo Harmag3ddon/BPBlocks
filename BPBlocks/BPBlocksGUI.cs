@@ -21,7 +21,6 @@ namespace BPBlocks
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            //TODO Settings for default starting pos of GUI
             //TODO Check how to make edit file from GUI and reset GUI to new values
 
             string userName = Environment.UserName;
@@ -82,7 +81,6 @@ namespace BPBlocks
                 writer.WriteLine("[Buttons]");
                 writer.WriteLine("Input=testas1");
                 writer.WriteLine("Output=testas2");
-                writer.WriteLine("[GUIStartPosition]");
             }
         }
 

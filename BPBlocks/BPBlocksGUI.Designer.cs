@@ -52,6 +52,8 @@ namespace BPBlocks
             this.Controls.Add(this.flowLayoutPanel);
             this.MaximizeBox = false;
             this.Name = "BPBlocksGUI";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BP Blocks";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.MainForm_Load);
